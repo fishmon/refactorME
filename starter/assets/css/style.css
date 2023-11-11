@@ -1,13 +1,14 @@
+/*  this applies to all elements*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*Sets the background color*/
 body {
     background-color: #d9dcd6;
 }
-
+/* header rules and properties*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -19,7 +20,7 @@ header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* Sets the color for h1 and the color for part of the text LOGO top-lef of the page*/
 header h1 .seo {
     color: #d9dcd6;
 }
@@ -31,16 +32,16 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* rules for nav and list sections*/
 header nav ul {
     list-style-type: none;
 }
-
+/* same as above*/
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*anchor rules*/
 a {
     color: #ffffff;
     text-decoration: none;
@@ -49,7 +50,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* These rules are for the big picture above the article sections. links to an image in the css image folder*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,24 +59,24 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*Moves the picture to the left*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/*moves the picture to the right*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-.content {
+article {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
-.benefits {
+/*These rules are for the right-side segment*/
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -86,6 +87,7 @@ p {
     background-color: #2589bd;
 }
 
+/* the following 9 class rules are for the "aside" element, on the right side segment of the page */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -133,7 +135,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* next 9 rules are for the article element and images nested inside*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -187,6 +189,8 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/*the footer section is commented out as this section was not needed , as per client requirments
+use these rulles if you want to restore the previous footer section--
 
 footer {
     padding: 30px;
@@ -198,3 +202,4 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+*/
