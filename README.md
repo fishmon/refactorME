@@ -1,8 +1,8 @@
-## Description
+# Description
 
 I was tasked with refactoring the codebase for Horiseon, a fictional marketing agency. 
 
-### Acceptance Criteria
+## Acceptance Criteria
 
 * Title elements contain a concise, descriptive title
 * HTML elements follow a logical structure independent of styling and positioning
@@ -12,7 +12,7 @@ I was tasked with refactoring the codebase for Horiseon, a fictional marketing a
 
 The client has requested a codebase that follows accessibility standards SO THAT the website is optimized for search engines
 
-### Work Completed
+## Work Completed
 
 * Optimised the website name
 * Fixed broken code that made some navigational links not function properly
@@ -20,9 +20,9 @@ The client has requested a codebase that follows accessibility standards SO THAT
 * Consolidated redundant CSS selectors and properties
 * Added alt attributes to images to improve SEO
 * Added further improvements for long-term sustenability
-* 
 
 ### Website Link
+[Horiseon](https://fishmon.github.io/refactorME-horiseon/)
 
 
 ### Screenshot
@@ -30,4 +30,4 @@ The client has requested a codebase that follows accessibility standards SO THAT
 ![screenshot](/assets/images/horiseon.png)
 
 ## Contact
-[Kara Krzystan on GitHub](http://github.com/kara-krzystan)
+[Serbanescu-Claudiu Adrian](https://github.com/fishmon)
