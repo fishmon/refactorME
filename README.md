@@ -27,7 +27,7 @@ The client has requested a codebase that follows accessibility standards SO THAT
 
 ### Screenshot
 
-![screenshot](/assets/images/screenshot_horiseon.jpg)
+![screenshot](/assets/images/horiseon.png)
 
 ## Contact
 [Kara Krzystan on GitHub](http://github.com/kara-krzystan)
